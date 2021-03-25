@@ -1,0 +1,66 @@
+.container {
+  max-width: 250px;
+  font-size: 30px;
+  background: black;
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5, .row-6 {
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+.row-1:nth-child(2) .row__col-1, .row-1:nth-child(2) .row__col-2, .row-1:nth-child(2) .row__col-3, .row-2:nth-child(2) .row__col-1, .row-2:nth-child(2) .row__col-2, .row-2:nth-child(2) .row__col-3, .row-3:nth-child(2) .row__col-1, .row-3:nth-child(2) .row__col-2, .row-3:nth-child(2) .row__col-3, .row-4:nth-child(2) .row__col-1, .row-4:nth-child(2) .row__col-2, .row-4:nth-child(2) .row__col-3, .row-5:nth-child(2) .row__col-1, .row-5:nth-child(2) .row__col-2, .row-5:nth-child(2) .row__col-3, .row-6:nth-child(2) .row__col-1, .row-6:nth-child(2) .row__col-2, .row-6:nth-child(2) .row__col-3 {
+  background: #cccccc;
+}
+.row-1 .row__value, .row-2 .row__value, .row-3 .row__value, .row-4 .row__value, .row-5 .row__value, .row-6 .row__value {
+  margin-bottom: 15px;
+  background: black !important;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.row-1 .row__value input, .row-2 .row__value input, .row-3 .row__value input, .row-4 .row__value input, .row-5 .row__value input, .row-6 .row__value input {
+  color: #ffff;
+  background: black;
+  margin-right: 15px;
+  font-size: 50px;
+  outline: none;
+  text-align: right;
+  height: 50px;
+}
+.row-1 input, .row-2 input, .row-3 input, .row-4 input, .row-5 input, .row-6 input {
+  width: 100%;
+  border: none;
+  height: 25px;
+}
+.row-1 div, .row-2 div, .row-3 div, .row-4 div, .row-5 div, .row-6 div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.row-1 div:last-child, .row-2 div:last-child, .row-3 div:last-child, .row-4 div:last-child, .row-5 div:last-child, .row-6 div:last-child {
+  background: orange;
+}
+
+.row-6 .row__col-1 {
+  flex-grow: 0.7;
+  border-radius: 100px;
+}
+
+.row-2 div span {
+  color: black;
+}
+.row-2 div:last-child span {
+  color: white;
+}
