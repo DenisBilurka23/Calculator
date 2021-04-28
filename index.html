@@ -8,8 +8,8 @@
 <body>
 	<div class="container">
 		<div class="row-1">
-			<div class="row__value">
-				<input readonly type="text" placeholder="0" class="row__input">
+			<div class="row-1__value">
+				<input readonly type="text" placeholder="0" class="row-1__input">
 			</div>
 		</div>
 		<div class="row-2">
@@ -50,7 +50,7 @@
 	</div>
 	<script>
 		let currentValue = ''
-		const input = document.querySelector('.row__input')
+		const input = document.querySelector('.row-1__input')
 		const insert = (value) => {
 			if (value === '+' || value === '-' || value === '*' || value === '/' || value ==='%'){
 				currentValue += value

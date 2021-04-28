@@ -1,7 +1,7 @@
 $white: #ffff;
 $grey: #808080;
-$black: #000
-$orange: 	#FFA500
+$black: #000;
+$orange: #FFA500;
 .container{
 	max-width: 250px;
 	font-size: 30px;
@@ -17,7 +17,7 @@ $orange: 	#FFA500
 			background: #cccccc;
 		}
 	}
-	.row__value{
+	.row-1__value{
 		input{
 			color: $white;
 			background: $black;
