@@ -1,3 +1,7 @@
+$white: #ffff;
+$grey: #808080;
+$black: #000
+$orange: 	#FFA500
 .container{
 	max-width: 250px;
 	font-size: 30px;
@@ -15,8 +19,8 @@
 	}
 	.row__value{
 		input{
-			color: #ffff;
-			background: black;
+			color: $white;
+			background: $black;
 			margin-right: 15px;
 			font-size: 50px;
 			outline: none;
@@ -43,8 +47,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: grey;
-		color: white;
+		background: $grey;
+		color: $white;
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
@@ -63,11 +67,11 @@
 .row-2{
 	div{
 		span{
-			color:black;
+			color:$black;
 		}
 		&:last-child{
 			span{
-				color: white;
+				color: $white;
 			}
 		}
 	}
